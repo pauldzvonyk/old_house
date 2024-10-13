@@ -55,7 +55,7 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">The Old House</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a class="nav-link scrollto" href="#contact">The Old House</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -109,7 +109,7 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="assets/img/old_house_4.jpg" alt="">
+              <img src="{{ url_for('static', filename='assets/img/old_house_4.jpg') }}" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
@@ -205,7 +205,7 @@
         <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/soup-of-the-day.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/soup-of-the-day.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Home Made Soup Of The Day</a><span>€6.50</span>
             </div>
@@ -215,7 +215,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/filo-king-prawn.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/filo-king-prawn.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Crispy King Prawn Roll</a><span>€11.95</span>
             </div>
@@ -225,7 +225,8 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/spicy-chicken-wings.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/spicy-chicken-wings.jpg') }}" class="menu-img"
+              alt="">
             <div class="menu-content">
               <a href="#">Crispy Spicy Chicken Wings</a><span>€11.95</span>
             </div>
@@ -235,7 +236,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-starters">
-            <img src="assets/img/menu/caesar-salad.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/caesar-salad.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Old House Caesar Salad</a><span>€11.95</span>
             </div>
@@ -245,7 +246,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-main">
-            <img src="assets/img/menu/lasagna.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/lasagna.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Home Made Beef Lasagna</a><span>€15.95
               </span>
@@ -257,7 +258,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-main">
-            <img src="assets/img/menu/bbq-ribs.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/bbq-ribs.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Full BBQ Baby Back Ribs</a><span>€18.95
               </span>
@@ -269,7 +270,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-main">
-            <img src="assets/img/menu/8oz-sirloinsteak.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/8oz-sirloinsteak.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">8oz Sirloin Steak</a><span>€24.95
               </span>
@@ -281,7 +282,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-main">
-            <img src="assets/img/menu/cod-and-chips.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/cod-and-chips.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Fresh Batter Cod and Chips</a><span>€17.95
               </span>
@@ -294,7 +295,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-oriental">
-            <img src="assets/img/menu/chicken-curry.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/chicken-curry.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Chicken Curry</a><span>€15.95
               </span>
@@ -306,7 +307,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-oriental">
-            <img src="assets/img/menu/prawn-noodles.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/prawn-noodles.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Stir Fried Prawn Noodles</a><span>€18.95
               </span>
@@ -318,7 +319,8 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-oriental">
-            <img src="assets/img/menu/thai-crispy-chicken.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/thai-crispy-chicken.jpg') }}" class="menu-img"
+              alt="">
             <div class="menu-content">
               <a href="#">Thai Sweet Chilli Crispy Shredded Chicken</a><span>€15.95
               </span>
@@ -330,7 +332,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-oriental">
-            <img src="assets/img/menu/roasted-duck.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/roasted-duck.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Crispy Roast Duck</a><span>€19.95
               </span>
@@ -342,7 +344,7 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/fillet-steak.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/fillet-steak.jpg') }}" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Fillet Steak</a><span>$30.95</span>
             </div>
@@ -352,7 +354,8 @@
           </div>
 
           <div class="col-lg-6 menu-item filter-specialty">
-            <img src="assets/img/menu/lemon-grilled-cod.jpg" class="menu-img" alt="">
+            <img src="{{ url_for('static', filename='assets/img/menu/lemon-grilled-cod.jpg') }}" class="menu-img"
+              alt="">
             <div class="menu-content">
               <a href="#">Grilled Cod with Lemony Prawn</a><span>$30.95</span>
             </div>
@@ -407,7 +410,7 @@
                       possible.</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-1.png" alt="" class="img-fluid">
+                    <img src="{{url_for('static', filename='assets/img/specials-1.png')}}" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
